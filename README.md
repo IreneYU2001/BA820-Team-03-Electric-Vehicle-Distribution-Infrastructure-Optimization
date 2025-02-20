@@ -19,6 +19,7 @@ Eligibility”, “Electric Range”, “Base MSRP”, “Legislative District�
 Specific Column/Features: “Electric Vehicle Type”, “Clean Alternative Fuel Vehicle (CAFV) Eligibility”, “Vehicle Location”, “Electric Utility”.
 Types of data include: Numeric, Categorical, String
 More specific descriptions of the columns can be found at: https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2/about_data
+
 Proposed Methodology： This project will adopt unsupervised machine-learning techniques to analyze the distribution patterns and characteristics of electric vehicles (EVs) in Washington State. The following methodologies will be employed:
 1. Clustering Analysis:
 Group EVs based on geographical distribution (county, city, postal code) to detect high-density areas and optimize charging station locations.
