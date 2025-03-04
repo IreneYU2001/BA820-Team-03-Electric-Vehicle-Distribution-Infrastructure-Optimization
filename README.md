@@ -20,15 +20,10 @@ Specific Column/Features: “Electric Vehicle Type”, “Clean Alternative Fuel
 Types of data include: Numeric, Categorical, String
 More specific descriptions of the columns can be found at: https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2/about_data
 
-Proposed Methodology： This project will adopt unsupervised machine-learning techniques to analyze the distribution patterns and characteristics of electric vehicles (EVs) in Washington State. The following methodologies will be employed:
-1. Clustering Analysis:
-Group EVs based on geographical distribution (county, city, postal code) to detect high-density areas and optimize charging station locations.
-Segment users by vehicle type (model, range, price) to understand regional preferences and inform car brands’ marketing strategies.
-Predict future charging demand by identifying areas with concentrated EV growth trends.
-2. Principal Component Analysis:
-Analyze the columns in the dataset, including vehicle characteristics, policy labels, and geographical information, to identify key factors influencing EV distribution.
-Determine the most impactful variables (e.g., vehicle range, price, policy eligibility) that affect EV adoption in different regions.
-3. Association Rule Mining:
-Analyze the relationship between EV brands, types, and geographical locations to inform car brands about region-specific consumer behavior.
-Investigate the impact of policy factors (e.g., Clean Alternative Fuel Vehicle eligibility) on EV purchase trends to help policymakers optimize incentives.
-Uncover charging demand patterns by identifying correlations between vehicle range and regional charging requirements.
+Problem Statement: In recent years, as the usage of electric vehicles (EVs) continues to gain ground around the world and continues to expand globally, it has brought new challenges to infrastructure planning, policy making, and energy distribution around the world. For example, where and how many charging stations should be set up to take care of every local electric vehicle to the greatest extent? Therefore, it's of great significance and crucial for the management agencies of all the countries' regulatory agencies worldwide to understand the distribution and characteristics of electric vehicles in different regions to optimize the layout of regional charging stations, deployment of charging infrastructure, and develop the popularity trend of electric vehicles in the future. However, the current insights into the population data of electric vehicles are often fragmented, lacking a comprehensive analysis of key factors such as vehicle type, mileage, and geographical distribution. 
+
+Key Challenges: This study aims to analyze EV distribution, identify high-demand charging areas, and evaluate policy impact. The findings will:
+help policymakers assess the effectiveness of incentives like the Clean Alternative Fuel Vehicle (CAFV) program and make better infrastructure decisions.
+help energy providers optimize charging station locations to improve usage efficiency.
+help automakers understand regional demand patterns to refine marketing strategies.
+By applying unsupervised machine learning methods, such as clustering and association rule mining, this study will uncover key trends in EV adoption. The results will offer data-driven insights to assist local governments in optimizing EV deployment and infrastructure planning in Washington State to better serve local citizens.
